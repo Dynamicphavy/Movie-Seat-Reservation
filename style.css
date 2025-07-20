@@ -44,6 +44,14 @@ nav {
     /* background-color: red; */
     border-radius: 15px;
     border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time span {
+    color: #fff;
+    font-size: 3rem;
 }
 
 .date {
