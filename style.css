@@ -52,7 +52,7 @@ body {
 }
 
 .date {
-    width: 100%;
+    width: 500px;
     height: 150px;
     /* background-color: green; */
     display: flex;
@@ -153,15 +153,11 @@ body {
 
 @media screen and (max-width:768px) {
     .int {
-        width: 99%;
-    }
-
-    .date {
-        width: 99%;
+        width: 380px;
     }
 
     .cinema {
-        width: 400px;
+        width: 385px;
     }
 
     .screen {
@@ -170,5 +166,17 @@ body {
 
     .seats {
         width: 400px;
+    }
+
+    .hints {
+        width: 330px;
+    }
+
+    .date {
+        width: 375px;
+    }
+
+    .date1 {
+        height: 100px;
     }
 }
