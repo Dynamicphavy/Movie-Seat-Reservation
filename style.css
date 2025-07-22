@@ -8,6 +8,7 @@ body {
     background-color: #000;
     font-family: "Poppins", sans-serif;
     margin: 0;
+    gap: 10px;
     min-height: 100vh;
 }
 
@@ -28,7 +29,7 @@ body {
 }
 
 .time {
-    width: 100%;
+    width: 350px;
     height: 150px;
     display: flex;
     justify-content: center;
@@ -52,22 +53,37 @@ body {
 }
 
 .date {
-    width: 500px;
-    height: 150px;
-    /* background-color: green; */
+    width: 700px;
+    height: 170px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
+    /* background-color: green; */
 }
 
 .date1 {
-    width: 150px;
-    height: 120px;
+    width: 200px;
+    height: 150px;
     /* background-color: blue; */
-    border-radius: 15px;
     border: 1px solid #babfc3;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.date1 p {
+    color: #fff;
+    font-size: 1.55rem;
+}
+
+.date1 h3 {
+    color: #fff;
+    font-size: 1.95rem;
+    font-weight: 500;
 }
 
 .cinema {
@@ -80,6 +96,10 @@ body {
     align-items: center;
     gap: 10px;
     border-radius: 20px;
+}
+
+.cinema span {
+    color: aqua;
 }
 
 .screen {
@@ -179,4 +199,16 @@ body {
     .date1 {
         height: 100px;
     }
+
+    .date1 p {
+        color: #fff;
+        font-size: 1.05rem;
+    }
+
+    .date1 h3 {
+        color: #fff;
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+
 }
